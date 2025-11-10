@@ -1,4 +1,4 @@
-const express= require('express')
+const express= require('express');
 const path = require('path');
 const app= express();
 const cors= require('cors');
@@ -33,4 +33,5 @@ app.listen(1000, ()=>{
     console.log('Listening on port 1000');
 
 })
+
 
